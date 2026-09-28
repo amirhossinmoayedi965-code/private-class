@@ -69,3 +69,6 @@ console.log(number_3 >= number_4);
 console.log(number_3 <= number_4);
 
 // ---------------------------------
+
+
+console.log("Amir")
