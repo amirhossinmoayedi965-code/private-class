@@ -30,7 +30,7 @@ const intel = "CORE i5";
 const Vscode = 1234567890;
 console.log(typeof Laptop);
 console.log(typeof intel);
-console.log(Vscode);
+console.log(typeof Vscode);
 
 //--------------------
 

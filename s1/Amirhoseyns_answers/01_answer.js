@@ -5,13 +5,13 @@ console.log(names[0]);
 console.log(names[1]);
 console.log(names[2]);
 
-let t = ["Apple", "Banana"]
- t.push =("Orange")
- console.log(t)
+let fruits = ["Apple", "Banana"]
+ fruits.push =("Orange")
+ console.log(fruits)
 
- let t = ["Apple", "Banana", "Orange"];
- t.pop();
- console.log(t)
+ fruits = ["Apple", "Banana", "Orange"];
+ fruits.pop();
+ console.log(fruits)
 
  let n = ["Ali", "Reza", "Sara"];
  
