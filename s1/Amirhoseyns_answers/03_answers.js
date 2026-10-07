@@ -1,14 +1,14 @@
 //Array
-const web =["Amir",20,false,"Website",1385];
+const web = ["Amir", 20, false, "Website", 1385];
 console.log(web);
 web.push("Ali");
 console.log(web);
 web.push(10);
-console.log(web)
+console.log(web);
 web.push("true");
 console.log(web);
 
-let Design =["Hadi",1352,true];
+let Design = ["Hadi", 1352, true];
 console.log(Design);
 Design.push("Backend");
 console.log(Design);
@@ -20,12 +20,12 @@ console.log(Design);
 //Variable
 let names = "Amir";
 let age = 19;
-let isStudent= true;
+let isStudent = true;
 console.log(typeof names);
 console.log(typeof age);
 console.log(typeof isStudent);
 
-const Laptop ="Lenovo";
+const Laptop = "Lenovo";
 const intel = "CORE i5";
 const Vscode = 1234567890;
 console.log(typeof Laptop);
