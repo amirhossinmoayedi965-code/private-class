@@ -1,4 +1,4 @@
 let colors = ["Red","Green","Blue","Yellow"];
-for (let i = 0; i < colors.length; i++); {
-    console.log("color",colors[i]);
+for (let x = 0; x < colors.length; i++); {
+    console.log(colors[x]);
 }
