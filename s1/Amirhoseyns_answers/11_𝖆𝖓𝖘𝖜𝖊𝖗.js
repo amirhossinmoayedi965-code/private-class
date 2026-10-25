@@ -10,7 +10,7 @@ PlayersLife(100);
 function Name(Amir) {
   console.log("سلام");
 }
-Name();
+Name("Amir");
 
 //3
 function number(number1, number2) {
