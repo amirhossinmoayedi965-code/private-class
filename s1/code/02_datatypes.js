@@ -19,8 +19,7 @@ let floatB = 451.07;
 let floatC = 0.009;
 
 // String
-let stringA =
-  "jaklsdfjkasd90-8**(*()@!#@!#@!-09asdkljkljk90-90-90),,,,asiopdjas[][][][][]{}";
+let stringA = "jaklsdfjkasd90-8**(*()@!#@!#@!-09asdkljkljk90-90-90),,,,asiopdjas[][][][][]{}";
 let stringB = "asjdklas12312   asd";
 let stringC = "12312354";
 

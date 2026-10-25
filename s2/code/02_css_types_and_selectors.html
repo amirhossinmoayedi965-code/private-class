@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>درس ۲ - روش‌های CSS و Selectorها</title>
+
+    <!-- Internal CSS -->
+    <style>
+      /* Element selector */
+      h1 {
+        color: darkblue;
+      }
+
+      /* Class selector */
+      .card {
+        background-color: lightblue;
+        border: 2px solid steelblue;
+      }
+
+      /* ID selector */
+      #special-text {
+        color: darkgreen;
+      }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="02_css_types_and_selectors.css" />
+  </head>
+
+  <body>
+    <h1>روش‌های استفاده از CSS</h1>
+
+    <div class="card">
+      <h2>Selectorها</h2>
+      <p id="special-text">این متن با ID انتخاب شده است.</p>
+
+      <!-- روش اول: Inline CSS -->
+      <p style="color: darkorange">این متن Inline Style دارد.</p>
+    </div>
+
+    <button type="button">دکمه‌ای با External CSS</button>
+  </body>
+</html>

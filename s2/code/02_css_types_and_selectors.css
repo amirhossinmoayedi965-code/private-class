@@ -1,0 +1,12 @@
+/* این فایل نمونه External CSS است. */
+
+body {
+  background-color: whitesmoke;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  color: white;
+  background-color: royalblue;
+  border: 2px solid navy;
+}
