@@ -35,3 +35,27 @@ function checknumber(num) {
     }
 }
 console.log(checknumber(100))
+
+//4
+function checkNumber(number) {
+    if (number > 0) {
+        return "مثبت"
+    } else if (number === 0) {
+        return "صفر"
+    } else {
+        return "منفی"
+    }
+}
+console.log(checkNumber(10))
+
+//5
+function checkSpeed(speed) {
+    if (speed > 100) {
+        return "سریع"
+    } else if (speed >= 30) {
+        return "متوسط"
+    } else {
+        return "کند"
+    }
+}
+console.log(checkSpeed(16.5))
