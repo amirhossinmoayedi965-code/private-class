@@ -18,8 +18,9 @@ console.log(result);
 //3
 
 function checknumber(num) {
-    if (num < 0 || num > 100)
+    if (num < 0 || num > 100) {
         return "Invalid Num"
+    }
     else if (num >= 90) {
         return "عالی"
     }
