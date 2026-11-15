@@ -2,60 +2,59 @@ const a = [12, 23, 3, 34, 45, 5, 67, 78, 8, 9];
 const Amir = [];
 
 for (let Hadi = 0; Hadi < a.length; Hadi++) {
-    Amir.push(a[Hadi] * 2);
+  Amir.push(a[Hadi] * 2);
 }
-console.log(Amir);
+// console.log(Amir);
 
 //2
 const numbers = [5, 12, 8, 20, 3, 15, 7, 10];
 const result = [];
 
 for (let i = 0; i < numbers.length; i++) {
-    result.push(numbers[i] * 3);
+  result.push(numbers[i] * 3);
 }
-console.log(result);
+// console.log(result);
 
 //3
 
 function checknumber(num) {
-    if (num < 0 || num > 100) {
-        return "Invalid Num"
-    }
-    else if (num >= 90) {
-        return "عالی"
-    }
-    else if (num >= 70) {
-        return "خوب"
-    }
-    else if (num >= 50) {
-        return "معمولی"
-    }
-    else {
-        return "مردود"
-    }
+  if (num < 0 || num > 100) {
+    return "Invalid Num";
+  } else if (num >= 90) {
+    return "عالی";
+  } else if (num >= 70) {
+    return "خوب";
+  } else if (num >= 50) {
+    return "معمولی";
+  } else {
+    return "مردود";
+  }
 }
-console.log(checknumber(100))
+const o = checknumber(100);
+console.log(o);
 
 //4
 function checkNumber(number) {
-    if (number > 0) {
-        return "مثبت"
-    } else if (number === 0) {
-        return "صفر"
-    } else {
-        return "منفی"
-    }
+  if (number > 0) {
+    return "مثبت";
+  } else if (number === 0) {
+    return "صفر";
+  } else {
+    return "منفی";
+  }
 }
-console.log(checkNumber(10))
+checkNumber(10);
+// console.log(checkNumber(10))
 
 //5
 function checkSpeed(speed) {
-    if (speed > 100) {
-        return "سریع"
-    } else if (speed >= 30) {
-        return "متوسط"
-    } else {
-        return "کند"
-    }
+  if (speed > 100) {
+    return "سریع";
+  } else if (speed >= 30) {
+    return "متوسط";
+  } else {
+    return "کند";
+  }
 }
-console.log(checkSpeed(16.5))
+checkSpeed(16.5);
+// console.log(checkSpeed(16.5));

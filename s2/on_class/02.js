@@ -17,3 +17,9 @@ function kkk(l) {
 }
 
 kkk(12);
+
+const n = 1000;
+
+if (n > 10 || n < 500) {
+  console.log("asdasd");
+}
