@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  min-height: 180px;
+  padding: 20px;
+  background-color: lightblue;
+}
+
+.item {
+  width: 100px;
+  padding: 30px 0;
+  text-align: center;
+  background-color: royalblue;
+  color: white;
+}
+
+.position-container {
+  position: relative;
+  height: 260px;
+  border: 3px solid #333;
+  background-color: white;
+}
+
+.static-box {
+  position: static;
+  width: 120px;
+  padding: 15px;
+  background-color: lightgreen;
+}
+
+.relative-box {
+  position: relative;
+  top: 20px;
+  right: 40px;
+  width: 120px;
+  padding: 15px;
+  background-color: gold;
+}
+
+.absolute-box {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  width: 120px;
+  padding: 15px;
+  background-color: lightcoral;
+}
+
+.sticky-box {
+  position: sticky;
+  top: 0;
+  margin-top: 30px;
+  padding: 15px;
+  background-color: mediumpurple;
+  color: white;
+}
+
+.fixed-button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  padding: 15px 25px;
+}
+
+.page-space {
+  height: 700px;
+  padding-top: 30px;
+}
