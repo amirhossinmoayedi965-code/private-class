@@ -1,0 +1,46 @@
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.pixels {
+  width: 300px;
+  background-color: lightblue;
+}
+
+.percent {
+  width: 70%;
+  background-color: lightgreen;
+}
+
+.viewport {
+  width: 50vw;
+  height: 15vh;
+  background-color: lightpink;
+}
+
+.box-model {
+  width: 250px;
+  margin: 30px;
+  border: 5px solid darkblue;
+  padding: 20px;
+  background-color: gold;
+}
+
+.inline {
+  display: inline;
+  background-color: lightcoral;
+}
+
+.block {
+  display: block;
+  margin-top: 15px;
+  background-color: lightseagreen;
+}
+
+.inline-block {
+  display: inline-block;
+  width: 150px;
+  margin-top: 15px;
+  background-color: plum;
+}
